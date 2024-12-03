@@ -1,0 +1,1 @@
+Understand MongoDB fundamentals, including CRUD operations, collections, and the JSON-like document structure.

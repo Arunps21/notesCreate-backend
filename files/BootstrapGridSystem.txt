@@ -1,0 +1,1 @@
+Learn about the Bootstrap grid system and how to use rows, columns, and responsive design to create flexible layouts.

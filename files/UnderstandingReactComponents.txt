@@ -1,0 +1,1 @@
+Explore the fundamentals of React components, including functional and class-based components, and their role in building reusable UI elements.

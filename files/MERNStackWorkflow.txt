@@ -1,0 +1,1 @@
+Get a comprehensive view of the MERN stack workflow and how React, Express, MongoDB, and Node.js work together to build full-stack applications.
