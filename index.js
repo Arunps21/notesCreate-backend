@@ -42,6 +42,23 @@ app.get("/show/:filename",(req,res)=>{
   })
 })
 
+app.get("/edit/:filename",(req,res)=>{
+  const { filename } = req.params
+      res.render("edit", {filename})
+})
+
+app.post("/edit",(req,res)=>{
+  const {previousText, newText} = req.body
+  fs.rename(`./files/${previousText}`,`./files/${newText}`,(err)=>{
+    if(err){
+      console.log("Error:",err)
+    }
+    else{
+      res.redirect("/")
+    }
+  })
+})
+
 app.listen(3000, () => {
   console.log("Server run at http://localhost:3000");
 });
